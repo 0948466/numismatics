@@ -1,0 +1,10 @@
+body {
+  max-width: 1080px;
+}
+
+.clickable-row {
+  cursor: pointer;
+  &:hover {
+    background: #e2e6ea linear-gradient(180deg, #e6eaed, #e2e6ea) repeat-x;
+  }
+}
