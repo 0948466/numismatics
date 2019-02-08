@@ -47,5 +47,10 @@ export default new Router({
       name: 'create-lot-buy',
       component: () => import(/* webpackChunkName: "CreateLotBuy" */ './views/CreateLotBuy.vue'),
     },
+    {
+      path: '/sing-in',
+      name: 'sing-in',
+      component: () => import(/* webpackChunkName: "SingIn" */ './views/SingIn.vue'),
+    },
   ],
 });

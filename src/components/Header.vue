@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light border-bottom">
     <a class="navbar-brand mr-auto" href="/">
-      <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+      <img src="../assets/icons/icon-coin.png" width="30" height="30" class="d-inline-block align-top" alt="">
       Nimismatics
     </a>
     <div class="navbar-toggler">
@@ -28,7 +28,7 @@
     <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="border-right pl-1 pr-1" href="/about-us">Вход</a>
+          <a class="border-right pl-1 pr-1" href="/sing-in">Вход<i class="fa fa-user-circle-o"></i></a>
         </li>
         <li class="nav-item">
           <a class="btn-link pl-1 pr-1" href="/offer">Регистрация <span class="sr-only">(current)</span></a>
