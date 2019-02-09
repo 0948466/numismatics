@@ -52,5 +52,35 @@ export default new Router({
       name: 'sing-in',
       component: () => import(/* webpackChunkName: "SingIn" */ './views/SingIn.vue'),
     },
+    {
+      path: '/profile',
+      name: 'profile',
+      component: () => import(/* webpackChunkName: "ProfileView" */ './views/ProfileView.vue'),
+    },
+    {
+      path: '/profile-edit',
+      name: 'profile-edit',
+      component: () => import(/* webpackChunkName: "ProfileEdit" */ './views/ProfileEdit.vue'),
+    },
+    {
+      path: '/order',
+      name: 'order',
+      component: () => import(/* webpackChunkName: "Order" */ './views/Order.vue'),
+    },
+    {
+      path: '/bid',
+      name: 'bid',
+      component: () => import(/* webpackChunkName: "Bid" */ './views/Bid.vue'),
+    },
+    {
+      path: '/orders',
+      name: 'orders',
+      component: () => import(/* webpackChunkName: "Orders" */ './views/Orders.vue'),
+    },
+    {
+      path: '/bids',
+      name: 'bids',
+      component: () => import(/* webpackChunkName: "Bids" */ './views/Bids.vue'),
+    },
   ],
 });

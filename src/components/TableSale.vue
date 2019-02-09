@@ -1,7 +1,7 @@
 <template>
   <section class="table-sale p-2 p-lg-5 border-bottom mb-2 mb-lg-5">
     <div class="container-fluid">
-      <div class="row justify-content-between align-items-center">
+      <div class="row justify-content-between align-items-center mb-4">
         <h2 class="mb-3">Продать монеты</h2>
         <a href="/create-lot-sale" class="btn btn-outline-dark mb-2 mb-sm-0">Создать лот на продажу</a>
       </div>
@@ -32,7 +32,11 @@
       </tr>
       <tr>
         <td class="p-0" colspan="4">
-          <a class="btn d-block btn-primary border-0 rounded-0" href="/coin-sale">Продать</a>
+          <a class="btn d-block btn-primary border-0 rounded-0 d-flex justify-content-between align-items-center" href="/coin-sale">
+            <i class="far fa-arrow-alt-circle-up"></i>
+            Продать
+            <i class="far fa-arrow-alt-circle-up"></i>
+          </a>
         </td>
       </tr>
 
@@ -53,7 +57,11 @@
       </tr>
       <tr>
         <td class="p-0" colspan="4">
-          <a class="btn d-block btn-primary border-0 rounded-0" href="/coin-sale">Продать</a>
+          <a class="btn d-block btn-primary border-0 rounded-0 d-flex justify-content-between align-items-center" href="/coin-sale">
+            <i class="far fa-arrow-alt-circle-up"></i>
+            Продать
+            <i class="far fa-arrow-alt-circle-up"></i>
+          </a>
         </td>
       </tr>
 
@@ -74,7 +82,11 @@
       </tr>
       <tr>
         <td class="p-0" colspan="4">
-          <a class="btn d-block btn-primary border-0 rounded-0" href="/coin-sale">Продать</a>
+          <a class="btn d-block btn-primary border-0 rounded-0 d-flex justify-content-between align-items-center" href="/coin-sale">
+            <i class="far fa-arrow-alt-circle-up"></i>
+            Продать
+            <i class="far fa-arrow-alt-circle-up"></i>
+          </a>
         </td>
       </tr>
 

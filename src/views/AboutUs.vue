@@ -27,7 +27,7 @@
       <div class="mb-5">
         <h2 class="mb-3">Контакты</h2>
 
-        <div class="container-fluid">
+        <div class="container-fluid mb-3">
           <div class="row justify-content-start">
             <div class="pl-0 pr-md-5 border-right">
               <p>Email - <span>test@test.test</span></p>
@@ -39,6 +39,8 @@
             </div>
           </div>
         </div>
+
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A621170f5b313e45fcec34a769511e1dbf9ade829944eeb51a099f33e5ee8ac92&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe></iframe>
       </div>
     </div>
   </section>

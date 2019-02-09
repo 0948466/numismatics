@@ -32,7 +32,7 @@
                   <label class="col-form-label mr-2" for="price">
                     Цена за штуку
                   </label>
-                  <input type="text" id="price" class="form-control col-5 " aria-describedby="priceHelp" placeholder="От 10 до 10000">
+                  <input type="number" id="price" class="form-control col-5 " aria-describedby="priceHelp" placeholder="От 10 до 10000" min="10" max="10000">
                   <sup id="priceHelp" class="text-muted ml-2">
                     Шаг 10
                   </sup>
@@ -42,27 +42,39 @@
                   <label class="col-form-label mr-2" for="quantity">
                     Количество
                   </label>
-                  <input type="text" id="quantity" class="form-control col-5 " aria-describedby="quantityHelp" placeholder="От до 500">
+                  <input type="number" id="quantity" class="form-control col-5 " aria-describedby="quantityHelp" placeholder="От 1 до 500" min="1" max="500">
                   <sup id="quantityHelp" class="text-muted ml-2">
                     Шаг 10
                   </sup>
                 </div>
 
 
-                <p>Итого - 345 850 рублей <sup class="text-muted">* с учетом комиссии биржи</sup></p>
+                <p>Итого - <span class="result-price"></span> рублей <sup class="text-muted">* с учетом комиссии биржи</sup></p>
 
               </div>
-              <button type="submit" class="btn btn-success w-100">
+              <div class="container-fluid">
+                <div class="row bg-warning p-2 pl-3 align-items-center">
+                  <i class="fas fa-exclamation-triangle mr-3" style="font-size: 27px"></i>
+                  <p class="mb-0 small">
+                    Есть встречная заявка,<br>
+                    удовлетворяющая вашей цене и объему
+                  </p>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-success btn-outline-warning disabled w-100 d-flex justify-content-between align-items-center">
+                  <i class="far fa-arrow-alt-circle-up"></i>
                 Хочу купить
+                  <i class="far fa-arrow-alt-circle-up"></i>
               </button>
             </div>
             <div class="col-md-6 mb-3">
               <h5>Оферта</h5>
               <div class="border p-4">
                 <ol class="pl-3 pr-3">
-                  <li>Комиссия биржи составляет 1%</li>
-                  <li>Здесь описано важное правило</li>
-                  <li>Здесь описано важное правило</li>
+                  <li class="mb-2">Комиссия биржи составляет 1%</li>
+                  <li class="mb-2">Здесь описано важное правило</li>
+                  <li class="mb-2">Здесь описано важное правило</li>
                 </ol>
                 <div class="form-check">
                   <input type="checkbox" class="form-check-input" id="submitRules">
@@ -75,7 +87,7 @@
       </form>
 
       <section class="table-buy p-2 p-lg-5 mb-2 mb-lg-5">
-        <h2 class="mb-3">Существующие предложения</h2>
+        <h2 class="mb-4">Существующие предложения</h2>
 
         <table class="table table-bordered table-responsive-lg">
           <thead>
@@ -103,7 +115,11 @@
           </tr>
           <tr>
             <td class="p-0" colspan="4">
-              <a class="btn d-block btn-success border-0 rounded-0" href="/coin-buy">Купить</a>
+              <a class="btn d-block btn-success border-0 rounded-0 d-flex justify-content-between align-items-center" href="/coin-buy">
+                <i class="far fa-arrow-alt-circle-up"></i>
+                Купить
+                <i class="far fa-arrow-alt-circle-up"></i>
+              </a>
             </td>
           </tr>
 
@@ -124,7 +140,11 @@
           </tr>
           <tr>
             <td class="p-0" colspan="4">
-              <a class="btn d-block btn-success border-0 rounded-0" href="/coin-buy">Купить</a>
+              <a class="btn d-block btn-success border-0 rounded-0 d-flex justify-content-between align-items-center" href="/coin-buy">
+                <i class="far fa-arrow-alt-circle-up"></i>
+                Купить
+                <i class="far fa-arrow-alt-circle-up"></i>
+              </a>
             </td>
           </tr>
 
@@ -145,7 +165,11 @@
           </tr>
           <tr>
             <td class="p-0" colspan="4">
-              <a class="btn d-block btn-success border-0 rounded-0" href="/coin-buy">Купить</a>
+              <a class="btn d-block btn-success border-0 rounded-0 d-flex justify-content-between align-items-center" href="/coin-buy">
+                <i class="far fa-arrow-alt-circle-up"></i>
+                Купить
+                <i class="far fa-arrow-alt-circle-up"></i>
+              </a>
             </td>
           </tr>
 
@@ -165,7 +189,36 @@
 
 <script>
   export default {
-    name: 'CreateLotBuy'
+    name: 'CreateLotBuy',
+    mounted() {
+      const quantityInput = $('#quantity')
+      const priceInput = $('#price')
+
+      if (!quantityInput.length) {
+        return
+      }
+
+      const resultPrice = $('.result-price')
+
+      function changeResult() {
+        try {
+          let result = quantityInput.val() * priceInput.val()
+
+          if (result !== result) {
+            result = 0
+          }
+          resultPrice.text(result)
+        } catch (e) {
+          console.error(e)
+        }
+
+      }
+
+      changeResult()
+
+      quantityInput.on('input', changeResult)
+      priceInput.on('input', changeResult)
+    }
   };
 </script>
 

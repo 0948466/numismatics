@@ -1,12 +1,12 @@
 <template>
   <div class="home">
     <TopIndex/>
-    <div class="container-fluid p-2 p-lg-5">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-lg-3">
           <Filters/>
         </div>
-        <div class="col-lg-9">
+        <div class="col-lg-9 p-0">
           <Catalog/>
         </div>
       </div>

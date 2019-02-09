@@ -1,6 +1,6 @@
 <template>
 
-  <section class="top-index p-5 border-bottom">
+  <section class="top-index p-5 border-bottom collapse show" id="collapseTopIndex">
     <div class="container-fluid">
       <div class="row justify-content-between">
         <div class="top-index__left">
@@ -8,7 +8,9 @@
           <p>Платформа для продажи и <br>приобретения коллекционных монет</p>
         </div>
         <div class="top-index__right">
-          <a href="#" class="btn-link">Свернуть блок</a>
+          <a href="#collapseTopIndex" class="btn-link" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseTopIndex">
+            Свернуть блок
+          </a>
         </div>
       </div>
     </div>

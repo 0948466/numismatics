@@ -26,12 +26,14 @@
     </div>
 
     <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav mr-auto align-content-center">
         <li class="nav-item active">
-          <a class="border-right pl-1 pr-1" href="/sing-in">Вход<i class="fa fa-user-circle-o"></i></a>
+          <!--<a class="border-right pl-1 pr-1" href="/sing-in">Вход<i class="fas fa-user-circle"></i></a>-->
+          <a class="border-right pl-1 pr-1 text-dark d-block" href="/profile"><i class="fas fa-user-circle h5 mb-0"></i> Валерий</a>
         </li>
         <li class="nav-item">
-          <a class="btn-link pl-1 pr-1" href="/offer">Регистрация <span class="sr-only">(current)</span></a>
+          <!--<a class="btn-link pl-1 pr-1 d-block" href="/offer">Регистрация <span class="sr-only">(current)</span></a>-->
+          <a class="btn-link pl-1 pr-1 d-block" href="/logout">Выйти <span class="sr-only">(current)</span></a>
         </li>
       </ul>
     </div>

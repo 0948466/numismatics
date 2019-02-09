@@ -1,6 +1,26 @@
 <template>
-  <section class="catalog">
-    <h1>Каталог</h1>
+  <section class="catalog  p-3 pt-lg-5">
+    <div class="container-fluid">
+      <div class="row justify-content-between align-items-center mb-4">
+        <h2 class="mb-3">Каталог</h2>
+        <p>Найдено 613 монет</p>
+      </div>
+    </div>
+
+    <div class="catalog__filters border p-1 p-md-2 pl-md-3 pr-md-3 mb-3">
+      <button class="btn btn-outline-dark mr-3 mb-2">
+        Государство - Россия <i class="fas fa-times ml-2"></i>
+      </button>
+      <button class="btn btn-outline-dark mr-3 mb-2">
+        Год выпуска - 1887 <i class="fas fa-times ml-2"></i>
+      </button>
+      <button class="btn btn-outline-dark mr-3 mb-2">
+        Материал - Серебро <i class="fas fa-times ml-2"></i>
+      </button>
+      <button class="btn btn-outline-dark mr-3">
+        Тип - Юбилейная <i class="fas fa-times ml-2"></i>
+      </button>
+    </div>
 
     <table class="table table-striped table-responsive-lg">
       <thead>
