@@ -20,6 +20,14 @@
 
     export default {
         name: "CoinCard",
+      mounted() {
+        const clickableRow2 = $('.clickable-row-2')
+        if (clickableRow2.length) {
+          clickableRow2.click(function() {
+            window.location = $(this).data('href');
+          });
+        }
+      },
         components: { TableBuy, TableSale, CoinDesc }
     }
 </script>

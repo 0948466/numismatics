@@ -14,22 +14,22 @@
           <div class="col-md-6">
             <div class="form-group">
               <label for="email">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="Введите Email">
+              <input type="email" class="form-control bg-white" id="email" value="test@test.test" disabled>
             </div>
 
             <div class="form-group">
               <label for="city">Город</label>
-              <input type="text" class="form-control" id="city" placeholder="Введите город">
+              <input type="text" class="form-control bg-white" id="city" value="Москва" disabled>
             </div>
 
             <div class="form-group">
               <label for="address">Адрес</label>
-              <input type="text" class="form-control" id="address" placeholder="Введите адрес">
+              <input type="text" class="form-control bg-white" id="address" value="ул. Ленина д.8" disabled>
             </div>
 
             <p class="mb-2">Скан паспорта</p>
             <div class="container-fluid border p-3 p-md-5 mb-2">
-              <div class="row align-items-center m-0">
+              <div class="row align-items-center m-0 justify-content-center">
                 <i class="fas fa-check-square mr-3 mb-2 mb-md-0" style="font-size: 40px"></i>
                 <p class="mr-2 mb-0">
                   Скан паспорта успешно загружен
@@ -40,22 +40,22 @@
           <div class="col-md-6">
             <div class="form-group">
               <label for="name">Имя</label>
-              <input type="text" class="form-control" id="name" placeholder="Введите имя">
+              <input type="text" class="form-control bg-white" id="name" value="Сергей" disabled>
             </div>
 
             <div class="form-group">
               <label for="surname">Фамилия</label>
-              <input type="text" class="form-control" id="surname" placeholder="Введите фамилию">
+              <input type="text" class="form-control bg-white" id="surname" value="Иванов" disabled>
             </div>
 
             <div class="form-group">
               <label for="patronymic">Отчество</label>
-              <input type="text" class="form-control" id="patronymic" placeholder="Введите отчество">
+              <input type="text" class="form-control bg-white" id="patronymic" value="Петрович" disabled>
             </div>
 
             <p class="mb-2">Скан ИНН</p>
             <div class="container-fluid border p-3 p-md-5 mb-2">
-              <div class="row align-items-center m-0">
+              <div class="row align-items-center text-center m-0 justify-content-center">
                 <i class="fas fa-exclamation-triangle mr-3 mb-2 mb-md-0" style="font-size: 40px"></i>
                 <p class="mr-2 mb-0">
                   Скан ИНН не загружен

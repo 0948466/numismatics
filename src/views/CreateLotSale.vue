@@ -76,7 +76,7 @@
           </div>
         </form>
 
-        <section class="table-sale p-2 p-lg-5 border-bottom mb-2 mb-lg-5">
+        <section class="table-sale p-2 p-lg-5 mb-2 mb-lg-5">
           <h2 class="mb-4">Существующие предложения</h2>
           <table class="table table-bordered table-responsive-lg">
             <thead>

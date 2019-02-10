@@ -46,7 +46,7 @@
       <div class="mb-3">
         <p class="mb-1">Номинал</p>
         <select class="selectpicker w-100" data-live-search="true">
-          <option>По убывнию</option>
+          <option>По убыванию</option>
           <option>По возрастанию</option>
         </select>
       </div>

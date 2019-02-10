@@ -5,7 +5,10 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "yarn build && yarn copy && yarn surge",
+    "copy": "cat dist/index.html >> dist/200.html",
+    "surge": "surge ./dist numismatics.surge.sh"
   },
   "dependencies": {
     "bootstrap": "^4.2.1",

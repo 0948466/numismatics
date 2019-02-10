@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light border-bottom">
     <a class="navbar-brand mr-auto" href="/">
-      <img src="../assets/icons/icon-coin.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      <img src="../assets/logo.png" width="32" height="32" class="d-inline-block align-top" alt="">
       Nimismatics
     </a>
     <!--<div class="navbar-toggler">-->

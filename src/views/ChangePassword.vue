@@ -39,7 +39,7 @@
             </div>
             <div class="row">
               <div class="col-md-6">
-                <a href="/profile-edit" class="btn btn-outline-dark w-100">Вернуться в личный кабинет</a>
+                <a href="/profile" class="btn btn-outline-dark w-100">Вернуться в личный кабинет</a>
               </div>
               <div class="col-md-6">
                 <button type="submit" class="btn btn-primary w-100">Сохранить изменения</button>

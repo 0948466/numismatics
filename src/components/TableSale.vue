@@ -20,73 +20,68 @@
         <td colspan="4"></td>
       </tr>
 
-
-      <tr class="bg-primary">
+      <tr class="clickable-row-2 bg-primary" data-href="/coin-sale">
         <td class="p-2" colspan="4"></td>
       </tr>
-      <tr>
+      <tr class="clickable-row-2" data-href="/coin-sale">
         <td>Монетный двор</td>
         <td>26.600 Р</td>
         <td>10</td>
         <td>266.000 Р</td>
       </tr>
-      <tr>
+      <tr class="clickable-row-2" data-href="/coin-sale">
         <td class="p-0" colspan="4">
-          <a class="btn d-block btn-primary border-0 rounded-0 d-flex justify-content-between align-items-center" href="/coin-sale">
+          <div class="btn bg-primary text-light border-0 rounded-0 d-flex justify-content-between align-items-center">
             <i class="far fa-arrow-alt-circle-up"></i>
             Продать
             <i class="far fa-arrow-alt-circle-up"></i>
-          </a>
+          </div>
         </td>
       </tr>
-
 
       <tr>
         <td colspan="4"></td>
       </tr>
 
-
-      <tr class="bg-primary">
+      <tr class="clickable-row-2 bg-primary" data-href="/coin-sale">
         <td class="p-2" colspan="4"></td>
       </tr>
-      <tr>
+      <tr class="clickable-row-2" data-href="/coin-sale">
         <td>Монетный двор</td>
         <td>26.600 Р</td>
         <td>10</td>
         <td>266.000 Р</td>
       </tr>
-      <tr>
+      <tr class="clickable-row-2" data-href="/coin-sale">
         <td class="p-0" colspan="4">
-          <a class="btn d-block btn-primary border-0 rounded-0 d-flex justify-content-between align-items-center" href="/coin-sale">
+          <div class="btn bg-primary text-light border-0 rounded-0 d-flex justify-content-between align-items-center">
             <i class="far fa-arrow-alt-circle-up"></i>
             Продать
             <i class="far fa-arrow-alt-circle-up"></i>
-          </a>
+          </div>
         </td>
       </tr>
-
 
       <tr>
         <td colspan="4"></td>
       </tr>
 
-
-      <tr class="bg-primary">
+      <tr class="clickable-row-2 bg-primary" data-href="/coin-sale">
         <td class="p-2" colspan="4"></td>
       </tr>
-      <tr>
+      <tr class="clickable-row-2" data-href="/coin-sale">
         <td>Монетный двор</td>
         <td>26.600 Р</td>
         <td>10</td>
         <td>266.000 Р</td>
       </tr>
-      <tr>
+      <tr class="clickable-row-2" data-href="/coin-sale">
         <td class="p-0" colspan="4">
-          <a class="btn d-block btn-primary border-0 rounded-0 d-flex justify-content-between align-items-center" href="/coin-sale">
+          <div class="btn bg-primary text-light border-0 rounded-0 d-flex justify-content-between align-items-center">
             <i class="far fa-arrow-alt-circle-up"></i>
             Продать
             <i class="far fa-arrow-alt-circle-up"></i>
-          </a>
+          </div>
         </td>
       </tr>
 

@@ -24,20 +24,18 @@
         </div>
         <div class="col-md-6">
           <h5>Описание</h5>
-          <p>Описание Описание Описание Описание</p>
-          <p>Номинал - <span>1 доллар</span></p>
-          <p>Государство - <span>Соединенные Штаты Америки</span></p>
-          <p>Год выпуска - <span>1887</span></p>
-          <p>Материал - <span>Серебро</span></p>
-          <p>Тип монеты - <span>Коллекционная</span></p>
-          <p>Сохранность - <span>Новая</span></p>
-          <p>Упаковка - <span>Из монетного двора</span></p>
-          <p>Серия - <span>Президенты</span></p>
+          <p class="small">Описание Описание Описание Описание</p>
+          <p><span class="h5">Номинал</span> - <span class="small">1 доллар</span></p>
+          <p><span class="h5">Государство</span> - <span class="small">Соединенные Штаты Америки</span></p>
+          <p><span class="h5">Год выпуска</span> - <span class="small">1887</span></p>
+          <p><span class="h5">Материал</span> - <span class="small">Серебро</span></p>
+          <p><span class="h5">Тип монеты</span> - <span class="small">Коллекционная</span></p>
+          <p><span class="h5">Сохранность</span> - <span class="small">Новая</span></p>
+          <p><span class="h5">Упаковка</span> - <span class="small">Из монетного двора</span></p>
+          <p><span class="h5">Серия</span> - <span class="small">Президенты</span></p>
         </div>
       </div>
     </div>
-
-
   </section>
 </template>
 
