@@ -1,15 +1,18 @@
 <template>
   <section class="bids mb-2 mb-lg-5">
+    <Breadcrumb :items="[{link: '/profile', text: 'Личный кабинет'}, { text: 'Все мои заявки'}]"/>
 
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb bg-transparent pl-2 pl-lg-5">
-        <li class="breadcrumb-item"><a href="/profile">Личный кабинет</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Все мои заявки</li>
-      </ol>
-    </nav>
-
-    <div class="order__inner  p-2 p-lg-5 ">
-      <h2 class="mb-3">Все мои заявки</h2>
+    <div class="order__inner p-2 p-md-3">
+      <div class="container-fluid">
+        <div class="row justify-content-between align-items-center mb-4">
+          <h2 class="mb-2 mb-md-0">Все мои заявки</h2>
+            <div class="row m-0 border pl-2 pr-2">
+              <a href="/sort" class="btn btn-outline-secondary border-0 mr-2 active">Все заявки</a>
+              <a href="/sort" class="btn btn-outline-secondary border-0 mr-2">Только покупка</a>
+              <a href="/sort" class="btn btn-outline-secondary border-0">Только продажа</a>
+            </div>
+        </div>
+      </div>
 
 
       <table class="table table-striped table-responsive-lg">
@@ -108,6 +111,10 @@
         </tbody>
       </table>
 
+
+      <div class="text-right">
+        <a href="#" class="btn-link">Показать больше заявок</a>
+      </div>
     </div>
 
     <Pagination/>
@@ -117,6 +124,7 @@
 
 <script>
   import Pagination from "../components/Pagination";
+  import Breadcrumb from "../components/Breadcrumb";
   export default {
     name: "Bids",
     mounted() {
@@ -124,7 +132,7 @@
         window.location = $(this).data('href');
       });
     },
-    components: {Pagination}
+    components: {Breadcrumb, Pagination}
   }
 </script>
 

@@ -1,5 +1,5 @@
 <template>
-  <section class="profile-view">
+  <section class="profile-view p-3">
     <Profile/>
     <LastBids/>
     <LastOrder/>

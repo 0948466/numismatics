@@ -3,7 +3,7 @@
     <TopIndex/>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-3 p-0">
           <Filters/>
         </div>
         <div class="col-lg-9 p-0">

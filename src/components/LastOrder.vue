@@ -1,7 +1,7 @@
 <template>
-  <section class="last-order  p-2 p-lg-5 mb-2 mb-lg-5">
-    <div class="container-fluid">
-      <div class="row justify-content-between align-items-center mb-4">
+  <section class="last-order pt-3 pt-md-5 pb-3 mb-2">
+    <div class="container-fluid p-0">
+      <div class="row justify-content-between align-items-center m-0 mb-4">
         <h2 class="mb-3">Последние заказы</h2>
         <a href="/" class="btn btn-outline-dark mb-2 mb-sm-0">Открыть каталог</a>
       </div>

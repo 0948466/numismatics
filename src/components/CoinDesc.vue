@@ -1,9 +1,9 @@
 <template>
-  <section class="coin-desc p-2 pl-lg-5 pr-lg-5 pb-lg-5 border-bottom mb-2 mb-lg-5">
+  <section class="coin-desc border-bottom pb-3 pb-md-5 mb-5">
     <h1 class="mb-4">"Распущенные волосы"</h1>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-5 mr-auto mb-3 mb-md-1">
+        <div class="col-md-5 mr-auto mb-3 mb-md-1 p-0">
           <a class="d-block w-100 mb-4" data-fancybox="gallery" :href="require('../assets/image/RR5714-0011.png')">
             <img src="../assets/image/RR5714-0011.png"></a>
           <div class="container-fluid">
@@ -22,7 +22,7 @@
           </div>
 
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 p-0">
           <h5>Описание</h5>
           <p class="small">Описание Описание Описание Описание</p>
           <p><span class="h5">Номинал</span> - <span class="small">1 доллар</span></p>

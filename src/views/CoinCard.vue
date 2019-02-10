@@ -1,15 +1,12 @@
 <template>
     <section class="coin-card">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb bg-transparent pl-2 pl-lg-5">
-          <li class="breadcrumb-item"><a href="/">Каталог</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Распущенные волосы</li>
-        </ol>
-      </nav>
+      <Breadcrumb :items="[{link: '/', text: 'Каталог'}, { text: 'Распущенные волосы'}]"/>
 
+      <div class="p-2 p-md-3">
         <CoinDesc/>
         <TableSale/>
         <TableBuy/>
+      </div>
     </section>
 </template>
 
@@ -17,6 +14,7 @@
     import CoinDesc from '../components/CoinDesc';
     import TableSale from '../components/TableSale';
     import TableBuy from '../components/TableBuy';
+    import Breadcrumb from "../components/Breadcrumb";
 
     export default {
         name: "CoinCard",
@@ -28,7 +26,7 @@
           });
         }
       },
-        components: { TableBuy, TableSale, CoinDesc }
+        components: {Breadcrumb, TableBuy, TableSale, CoinDesc }
     }
 </script>
 

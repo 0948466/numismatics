@@ -1,7 +1,7 @@
 <template>
   <section class="offer">
     <TopIndex/>
-    <div class="p-5">
+    <div class="py-5 px-3">
       <div class="mb-5">
         <div class="container-fluid">
           <div class="row justify-content-between">

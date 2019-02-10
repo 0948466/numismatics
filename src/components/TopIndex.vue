@@ -1,6 +1,6 @@
 <template>
 
-  <section class="top-index p-5 border-bottom collapse show" id="collapseTopIndex">
+  <section class="top-index py-5 px-3 border-bottom collapse show" id="collapseTopIndex">
     <div class="container-fluid">
       <div class="row justify-content-between">
         <div class="top-index__left">

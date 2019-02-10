@@ -1,16 +1,10 @@
 <template>
   <section class="change-password">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb bg-transparent pl-2 pl-lg-5">
-          <li class="breadcrumb-item"><a href="/profile">Личный кабинет</a></li>
-          <li class="breadcrumb-item"><a href="/profile-edit">Изменение профиля</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Изменить пароль</li>
-        </ol>
-      </nav>
+    <Breadcrumb :items="[{link: '/profile', text: 'Личный кабинет'}, {link: '/profile-edit', text: 'Изменение профиля'}, { text: 'Изменить пароль'}]"/>
 
-      <div class="change-password__inner pl-2 pl-lg-5 mb-5">
+      <div class="change-password__inner">
         <div class="container-fluid">
-          <div class="row justify-content-between align-items-center mb-4">
+          <div class="row justify-content-between align-items-center m-0 mb-4">
             <h2 class="mb-3">Изменение пароля</h2>
           </div>
         </div>
@@ -54,8 +48,10 @@
 </template>
 
 <script>
+  import Breadcrumb from "../components/Breadcrumb";
   export default {
-    name: "ChangePassword"
+    name: "ChangePassword",
+    components: {Breadcrumb}
   }
 </script>
 

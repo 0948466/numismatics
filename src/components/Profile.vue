@@ -1,5 +1,5 @@
 <template>
-  <section class="profile p-2 p-lg-5 border-bottom">
+  <section class="profile pt-3 pt-md-5 pb-3 border-bottom">
     <div class="container-fluid mb-4">
       <div class="row align-items-center">
         <h1 class="mr-4">Мой профиль</h1>
@@ -11,7 +11,7 @@
     <form>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3 p-0 pr-md-2">
             <div class="form-group">
               <label for="email">Email</label>
               <input type="email" class="form-control bg-white" id="email" value="test@test.test" disabled>
@@ -37,7 +37,7 @@
               </div>
             </div>`
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3 p-0 pl-md-2">
             <div class="form-group">
               <label for="name">Имя</label>
               <input type="text" class="form-control bg-white" id="name" value="Сергей" disabled>

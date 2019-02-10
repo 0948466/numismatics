@@ -29,7 +29,7 @@ img {
 }
 
 @include media-breakpoint-down(xs) {
-  .filters {
+  .filters, .contacts__address {
     border-right: none !important;
 
   }

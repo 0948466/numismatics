@@ -1,14 +1,8 @@
 <template>
     <section class="bid">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb bg-transparent pl-2 pl-lg-5">
-          <li class="breadcrumb-item"><a href="/profile">Личный кабинет</a></li>
-          <li class="breadcrumb-item"><a href="/bids">Мои заявки</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Покупка монеты</li>
-        </ol>
-      </nav>
+      <Breadcrumb :items="[{link: '/profile', text: 'Личный кабинет'}, {link: '/bids', text: 'Мои заявки'}, { text: 'Покупка монеты'}]"/>
 
-      <div class="bid__inner p-2 p-lg-5 ">
+      <div class="bid__inner p-3">
         <h2 class="mb-3">Покупка монеты <i class="fas fa-check-circle"></i></h2>
         <h5>Информация о сделке</h5>
         <div class="border p-4">
@@ -20,7 +14,7 @@
         </div>
       </div>
 
-      <CoinDesc class="border-0"/>
+      <CoinDesc class="border-0 p-3"/>
     </section>
 </template>
 
@@ -33,7 +27,8 @@
 
   <script>
     import CoinDesc from "../components/CoinDesc";
+    import Breadcrumb from "../components/Breadcrumb";
     export default {
-      components: {CoinDesc}
+      components: {Breadcrumb, CoinDesc}
     }
   </script>

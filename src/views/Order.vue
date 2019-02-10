@@ -1,14 +1,8 @@
 <template>
   <section class="order">
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb bg-transparent pl-2 pl-lg-5">
-        <li class="breadcrumb-item"><a href="/profile">Личный кабинет</a></li>
-        <li class="breadcrumb-item"><a href="/orders">Мои заказы</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Покупка монеты</li>
-      </ol>
-    </nav>
+    <Breadcrumb :items="[{link: '/profile', text: 'Личный кабинет'}, {link: '/orders', text: 'Мои заказы'}, { text: 'Покупка монеты'}]"/>
 
-    <div class="order__inner p-2 p-lg-5 ">
+    <div class="order__inner p-3 ">
       <h2 class="mb-3">Покупка монеты <i class="fas fa-check-circle"></i></h2>
       <h5>Информация о сделке</h5>
       <div class="border p-4">
@@ -20,7 +14,7 @@
       </div>
     </div>
 
-    <section class="coin-desc p-2 pl-lg-5 pr-lg-5 pb-lg-5 mb-2 mb-lg-5">
+    <section class="coin-desc p-3 mb-5">
       <div class="container-fluid">
         <div class="row justify-content-between align-items-center mb-4">
           <h1 class="mb-3">"Распущенные волосы"</h1>
@@ -29,7 +23,7 @@
       </div>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-5 mr-auto mb-3 mb-md-1">
+          <div class="col-md-5 mr-auto mb-3 mb-md-1 p-0">
             <a class="d-block w-100 mb-4" data-fancybox="gallery" :href="require('../assets/image/RR5714-0011.png')">
               <img src="../assets/image/RR5714-0011.png"></a>
             <div class="container-fluid">
@@ -48,7 +42,7 @@
             </div>
 
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 p-0">
             <h5>Описание</h5>
             <p class="small">Описание Описание Описание Описание</p>
             <p><span class="h5">Номинал</span> - <span class="small">1 доллар</span></p>
@@ -68,9 +62,10 @@
 
 <script>
   import CoinDesc from "../components/CoinDesc";
+  import Breadcrumb from "../components/Breadcrumb";
   export default {
     name: "Order",
-    components: {CoinDesc}
+    components: {Breadcrumb, CoinDesc}
   }
 </script>
 

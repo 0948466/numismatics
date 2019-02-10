@@ -1,15 +1,10 @@
 <template>
   <section class="profile-edit">
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb bg-transparent pl-2 pl-lg-5">
-        <li class="breadcrumb-item"><a href="/profile">Личный кабинет</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Изменение профиля</li>
-      </ol>
-    </nav>
+    <Breadcrumb :items="[{link: '/profile', text: 'Личный кабинет'}, { text: 'Изменение профиля'}]"/>
 
-    <div class="profile-edit__inner pl-2 pl-lg-5 mb-5">
+    <div class="profile-edit__inner mb-5">
       <div class="container-fluid">
-        <div class="row justify-content-between align-items-center mb-4">
+        <div class="row justify-content-between align-items-center m-0">
           <h2 class="mb-3">Изменение профиля</h2>
           <a href="/change-password" class="btn btn-link">Изменить пароль</a>
         </div>
@@ -86,8 +81,10 @@
 </template>
 
 <script>
+  import Breadcrumb from "../components/Breadcrumb";
   export default {
-    name: "ProfileEdit"
+    name: "ProfileEdit",
+    components: {Breadcrumb}
   }
 </script>
 

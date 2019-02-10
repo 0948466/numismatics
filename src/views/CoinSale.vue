@@ -1,20 +1,14 @@
 <template>
   <section class="coin-sale">
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb bg-transparent pl-2 pl-lg-5">
-        <li class="breadcrumb-item"><a href="/">Каталог</a></li>
-        <li class="breadcrumb-item"><a href="/coin-card">Распущенные волосы</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Продажа монеты</li>
-      </ol>
-    </nav>
+    <Breadcrumb :items="[{link: '/', text: 'Каталог'}, {link: '/coin-card', text: 'Распущенные волосы'}, { text: 'Продажа монеты'}]"/>
 
-    <div class="p-2 p-lg-5">
+    <div class="p-3">
       <h1>Продажа монеты</h1>
 
       <form action="#">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-6 mb-3">
+            <div class="col-md-6 mb-3 p-0 pr-md-2">
               <h5>Информация о сделке</h5>
               <div class="border p-4">
                 <p>Монета - "Распущенные волосы"</p>
@@ -33,7 +27,7 @@
                 <i class="far fa-arrow-alt-circle-up"></i>
               </button>
             </div>
-            <div class="col-md-6 mb-3">
+            <div class="col-md-6 mb-3 p-0 pl-md-2">
               <h5>Оферта</h5>
               <div class="border p-4">
                 <ol class="pl-3 pr-3">
@@ -56,8 +50,10 @@
 </template>
 
 <script>
+  import Breadcrumb from "../components/Breadcrumb";
   export default {
-    name: 'CoinSale'
+    name: 'CoinSale',
+    components: {Breadcrumb}
   };
 </script>
 

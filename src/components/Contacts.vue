@@ -4,7 +4,7 @@
 
     <div class="container-fluid mb-3">
       <div class="row justify-content-start">
-        <div class="pl-0 pr-md-5 border-right">
+        <div class="contacts__address pl-0 pr-md-5 border-right">
           <p>Email - <span>test@test.test</span></p>
           <p class="mb-0">Phone - <span>+7(000)123-45-67</span></p>
         </div>
