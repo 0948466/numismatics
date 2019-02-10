@@ -9,8 +9,9 @@
 
     <div class="profile-edit__inner pl-2 pl-lg-5 mb-5">
       <div class="container-fluid">
-        <div class="row justify-content-between">
-          <h1>Изменение профиля</h1>
+        <div class="row justify-content-between align-items-center mb-4">
+          <h2 class="mb-3">Изменение профиля</h2>
+          <a href="/change-password" class="btn btn-link">Изменить пароль</a>
         </div>
       </div>
 

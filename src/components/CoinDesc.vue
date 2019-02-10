@@ -3,7 +3,7 @@
     <h1 class="mb-4">"Распущенные волосы"</h1>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-5 mr-auto">
+        <div class="col-md-5 mr-auto mb-3 mb-md-1">
           <a class="d-block w-100 mb-4" data-fancybox="gallery" :href="require('../assets/image/RR5714-0011.png')">
             <img src="../assets/image/RR5714-0011.png"></a>
           <div class="container-fluid">

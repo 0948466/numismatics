@@ -28,14 +28,14 @@
             </div>
 
             <p class="mb-2">Скан паспорта</p>
-            <div class="container-fluid border p-5">
-              <div class="row align-items-center">
-                <i class="fas fa-check-square mr-3" style="font-size: 40px"></i>
+            <div class="container-fluid border p-3 p-md-5 mb-2">
+              <div class="row align-items-center m-0">
+                <i class="fas fa-check-square mr-3 mb-2 mb-md-0" style="font-size: 40px"></i>
                 <p class="mr-2 mb-0">
                   Скан паспорта успешно загружен
                 </p>
               </div>
-            </div>
+            </div>`
           </div>
           <div class="col-md-6">
             <div class="form-group">
@@ -54,9 +54,9 @@
             </div>
 
             <p class="mb-2">Скан ИНН</p>
-            <div class="container-fluid border p-5">
-              <div class="row align-items-center">
-                <i class="fas fa-exclamation-triangle mr-3" style="font-size: 40px"></i>
+            <div class="container-fluid border p-3 p-md-5 mb-2">
+              <div class="row align-items-center m-0">
+                <i class="fas fa-exclamation-triangle mr-3 mb-2 mb-md-0" style="font-size: 40px"></i>
                 <p class="mr-2 mb-0">
                   Скан ИНН не загружен
                 </p>

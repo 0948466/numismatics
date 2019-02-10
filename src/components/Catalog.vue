@@ -3,7 +3,11 @@
     <div class="container-fluid">
       <div class="row justify-content-between align-items-center mb-4">
         <h2 class="mb-3">Каталог</h2>
-        <p>Найдено 613 монет</p>
+        <p class="d-none d-sm-block">Найдено 613 монет</p>
+          <a class="d-block d-sm-none btn-link"  data-toggle="collapse" href="#collapseFilterContent" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <i class="fas fa-filter text-primary" style="font-size: 20px"></i>
+            Фильтр
+          </a>
       </div>
     </div>
 
@@ -22,6 +26,8 @@
       </button>
     </div>
 
+
+    <FiltersContent class="collapse"  id="collapseFilterContent"/>
     <table class="table table-striped table-responsive-lg">
       <thead>
       <tr>
@@ -116,9 +122,10 @@
 
 <script>
   import Pagination from './Pagination';
+  import FiltersContent from "./FiltersContent";
   export default {
     name: 'Catalog',
-    components: { Pagination }
+    components: {FiltersContent, Pagination }
   };
 </script>
 

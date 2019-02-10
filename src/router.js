@@ -82,5 +82,10 @@ export default new Router({
       name: 'bids',
       component: () => import(/* webpackChunkName: "Bids" */ './views/Bids.vue'),
     },
+    {
+      path: '/change-password',
+      name: 'change-password',
+      component: () => import(/* webpackChunkName: "ChangePassword" */ './views/ChangePassword.vue'),
+    },
   ],
 });

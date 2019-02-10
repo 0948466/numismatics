@@ -2,6 +2,17 @@ body {
   max-width: 1080px;
 }
 
+#app {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  min-height: calc(100vh - 3px);
+}
+
+footer {
+  margin-top: auto;
+}
+
 .clickable-row {
   cursor: pointer;
   &:hover {
@@ -11,4 +22,11 @@ body {
 
 img {
   max-width: 100%;
+}
+
+@include media-breakpoint-down(xs) {
+  .filters {
+    border-right: none !important;
+
+  }
 }
