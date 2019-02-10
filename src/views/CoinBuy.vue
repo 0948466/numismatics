@@ -24,7 +24,7 @@
                 <p>Итого - 345 850 рублей <sup class="text-muted">* с учетом комиссии биржи</sup></p>
                 <label>
                   Комментарий к заказу
-                  <input type="text">
+                  <input type="text" class="w-100 mt-2">
                 </label>
               </div>
               <button type="submit" class="btn btn-success w-100 d-flex justify-content-between align-items-center">

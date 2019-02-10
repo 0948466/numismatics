@@ -12,31 +12,17 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-
-
-    <div class="collapse navbar-collapse flex-grow-0">
-      <ul class="navbar-nav mr-3">
-        <li class="nav-item active">
-          <a class="nav-link" href="/about-us">О нас</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/offer">Оферта <span class="sr-only">(current)</span></a>
-        </li>
-      </ul>
-    </div>
-
     <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto align-content-center p-2">
         <li class="nav-item active">
-          <!--<a class="border-right pl-1 pr-1" href="/sing-in">Вход<i class="fas fa-user-circle"></i></a>-->
-          <a class="nav-link text-dark" href="/profile"><i class="fas fa-user-circle h5 mb-0"></i> Валерий</a>
-        </li>
-
-        <li class="nav-item active">
           <a class="nav-link" href="/about-us">О нас</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/offer">Оферта <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <!--<a class="border-right pl-1 pr-1" href="/sing-in">Вход<i class="fas fa-user-circle"></i></a>-->
+          <a class="nav-link text-dark" href="/profile"><i class="fas fa-user-circle h5 mb-0"></i> Валерий</a>
         </li>
         <li class="nav-item">
           <!--<a class="btn-link pl-1 pr-1 d-block" href="/offer">Регистрация <span class="sr-only">(current)</span></a>-->
