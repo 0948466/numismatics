@@ -27,7 +27,7 @@
                     Цена за штуку
                   </label>
                   <input type="number" id="price" class="form-control col-8 col-md-5" aria-describedby="priceHelp" placeholder="От 10 до 10000" min="10" max="10000">
-                  <sup id="priceHelp" class="text-muted ml-2 col-3 col-lg-12 p-0 p-md-2">
+                  <sup id="priceHelp" class="text-muted">
                     Шаг 10
                   </sup>
                 </div>
@@ -37,7 +37,7 @@
                     Количество
                   </label>
                   <input type="number" id="quantity" class="form-control  col-8 col-md-5" aria-describedby="quantityHelp" placeholder="От 1 до 500" min="1" max="500">
-                  <sup id="quantityHelp" class="text-muted ml-2 col-3 col-lg-12 p-0 p-md-2">
+                  <sup id="quantityHelp" class="text-muted">
                     Шаг 10
                   </sup>
                 </div>
