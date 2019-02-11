@@ -26,7 +26,7 @@
                     <label class="col-form-label mr-2" for="price">
                       Цена за штуку
                     </label>
-                    <input type="number" id="price" class="form-control col-8 col-md-5" aria-describedby="priceHelp" placeholder="От 10 до 10000" min="10" max="10000">
+                    <input type="number" id="price" class="form-control col-8 col-md-5" name="price" aria-describedby="priceHelp" placeholder="От 10 до 10000" min="10" max="10000">
                     <sup id="priceHelp" class="text-muted">
                       Шаг 10
                     </sup>
@@ -36,7 +36,7 @@
                     <label class="col-form-label mr-2" for="quantity">
                       Количество
                     </label>
-                    <input type="number" id="quantity" class="form-control  col-8 col-md-5" aria-describedby="quantityHelp" placeholder="От 1 до 500" min="1" max="500">
+                    <input type="number" id="quantity" class="form-control  col-8 col-md-5" name="quantity" aria-describedby="quantityHelp" placeholder="От 1 до 500" min="1" max="500">
                     <sup id="quantityHelp" class="text-muted">
                       Шаг 10
                     </sup>
@@ -61,7 +61,7 @@
                     <li class="mb-2">Здесь описано важное правило</li>
                   </ol>
                   <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="submitRules">
+                    <input type="checkbox" class="form-check-input" id="submitRules" name="submit-rules">
                     <label class="form-check-label" for="submitRules">Я ознакомился с правилами и офертой</label>
                   </div>
                 </div>

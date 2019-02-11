@@ -4,10 +4,6 @@
       <img src="../assets/logo.png" width="32" height="32" class="d-inline-block align-top" alt="">
       Nimismatics
     </a>
-    <!--<div class="navbar-toggler">-->
-      <!--<a class="d-inline-block p-2" href="#">profile</a>-->
-      <!--<a class="d-inline-block p-2" href="#">exit</a>-->
-    <!--</div>-->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -20,13 +16,13 @@
         <li class="nav-item">
           <a class="nav-link" href="/offer">Оферта <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item active">
-          <!--<a class="border-right pl-1 pr-1" href="/sing-in">Вход<i class="fas fa-user-circle"></i></a>-->
-          <a class="nav-link text-dark" href="/profile"><i class="fas fa-user-circle h5 mb-0"></i> Валерий</a>
+        <li class="nav-item active  d-flex align-items-center">
+          <!--<a class="btn-link d-block px-md-1 header__link" href="/sing-in">Вход</a>-->
+          <a class="nav-link text-dark header__link" href="/profile"><i class="fas fa-user-circle h5 mb-0"></i> Валерий</a>
         </li>
         <li class="nav-item">
-          <!--<a class="btn-link pl-1 pr-1 d-block" href="/offer">Регистрация <span class="sr-only">(current)</span></a>-->
-          <a class="nav-link" href="/logout">Выйти <span class="sr-only">(current)</span></a>
+          <!--<a class="btn-link d-block py-2 px-md-1" href="/offer">Регистрация <span class="sr-only">(current)</span></a>-->
+          <a class="btn-link d-block py-2 px-md-1" href="/logout">Выйти <span class="sr-only">(current)</span></a>
         </li>
       </ul>
     </div>

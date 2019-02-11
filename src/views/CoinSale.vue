@@ -18,7 +18,7 @@
                 <p>Итого - 345 850 рублей <sup class="text-muted">* с учетом комиссии биржи</sup></p>
                 <label>
                   Комментарий к заказу
-                  <input type="text" class="w-100 mt-2">
+                  <input type="text" class="w-100 mt-2" name="comment">
                 </label>
               </div>
               <button type="submit" class="btn btn-primary w-100 d-flex justify-content-between align-items-center">
@@ -36,7 +36,7 @@
                   <li class="mb-2">Здесь описано важное правило</li>
                 </ol>
                 <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="submitRules">
+                  <input type="checkbox" class="form-check-input" id="submitRules" name="submit-rules">
                   <label class="form-check-label" for="submitRules">Я ознакомился с правилами и офертой</label>
                 </div>
               </div>

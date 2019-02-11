@@ -10,7 +10,7 @@
       </div>
       <div class="p-3 pt-5">
         <label for="inputEmail">Email</label>
-        <input type="email" id="inputEmail" class="form-control mb-3" required="" autofocus="">
+        <input type="email" id="inputEmail" class="form-control mb-3" name="email" required="" autofocus="">
         <button class="btn btn-primary w-100" type="submit">Восстановить пароль</button>
         <p class=" mt-4">На указанный email отправлено письмо с восстановлением пароля</p>
       </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="filters-content">
+  <form class="filters-content form" action="#">
     <div class="mb-3">
       <p class="mb-1">Государство</p>
       <select class="selectpicker w-100" data-live-search="true">
@@ -74,7 +74,7 @@
 
     <button type="submit" class="btn btn-primary w-100 mb-3">Применить</button>
     <button type="reset" class="btn btn-outline-dark w-100">Сбросить</button>
-  </div>
+  </form>
 </template>
 
 <script>

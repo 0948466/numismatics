@@ -11,9 +11,9 @@
         </div>
         <div class="p-3 pt-5">
           <label for="inputEmail">Email</label>
-          <input type="email" id="inputEmail" class="form-control mb-3" required="" autofocus="">
+          <input type="email" id="inputEmail" class="form-control mb-3" name="email" required="" autofocus="">
           <label for="inputPassword">Пароль</label>
-          <input type="password" id="inputPassword" class="form-control" required="">
+          <input type="password" id="inputPassword" class="form-control" name="password" required="">
           <div class="text-right">
             <a href="/password-recovery" class="btn-link small">Забыли пароль?</a>
           </div>

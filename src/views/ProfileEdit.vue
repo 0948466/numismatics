@@ -16,17 +16,17 @@
             <div class="col-md-6">
               <div class="form-group">
                 <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="Введите Email">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Введите Email">
               </div>
 
               <div class="form-group">
                 <label for="city">Город</label>
-                <input type="text" class="form-control" id="city" placeholder="Введите город">
+                <input type="text" class="form-control" id="city" name="city" placeholder="Введите город">
               </div>
 
               <div class="form-group">
                 <label for="address">Адрес</label>
-                <input type="text" class="form-control" id="address" placeholder="Введите адрес">
+                <input type="text" class="form-control" id="address" name="address" placeholder="Введите адрес">
               </div>
 
               <p class="mb-2">Скан паспорта</p>
@@ -35,7 +35,7 @@
                   Наведите файлы сюда или нажмите
                 </p>
                 <label class="btn btn-outline-dark mb-0 ml-auto">
-                  Выбрать <input type="file" hidden>
+                  Выбрать <input type="file" name="file-passport" hidden>
                 </label>
               </div>
 
@@ -44,17 +44,17 @@
             <div class="col-md-6">
               <div class="form-group">
                 <label for="name">Имя</label>
-                <input type="text" class="form-control" id="name" placeholder="Введите имя">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Введите имя">
               </div>
 
               <div class="form-group">
                 <label for="surname">Фамилия</label>
-                <input type="text" class="form-control" id="surname" placeholder="Введите фамилию">
+                <input type="text" class="form-control" id="surname" name="surname" placeholder="Введите фамилию">
               </div>
 
               <div class="form-group">
                 <label for="patronymic">Отчество</label>
-                <input type="text" class="form-control" id="patronymic" placeholder="Введите отчество">
+                <input type="text" class="form-control" id="patronymic" name="patronymic" placeholder="Введите отчество">
               </div>
 
               <p class="mb-2">Скан ИНН</p>
@@ -63,7 +63,7 @@
                   Наведите файлы сюда или нажмите
                 </p>
                 <label class="btn btn-outline-dark mb-0 ml-auto">
-                  Выбрать <input type="file" hidden>
+                  Выбрать <input type="file" name="file-inn" hidden>
                 </label>
               </div>
 
