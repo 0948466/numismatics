@@ -1,3 +1,12 @@
 export default function initRange() {
-  $("#ex16a").slider({ min: 0, max: 10, value: 0, focus: true, tooltip_position: 'top' });
+  const rangePrice = $(".range-price")
+  const rangeCount = $(".range-count")
+
+  if (rangePrice.length) {
+    rangePrice.ionRangeSlider();
+  }
+  if (rangeCount.length) {
+    rangeCount.ionRangeSlider();
+  }
+
 }

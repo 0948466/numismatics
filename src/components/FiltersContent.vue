@@ -33,7 +33,7 @@
         <option>Редкая</option>
       </select>
     </div>
-    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFilters" aria-expanded="false" aria-controls="collapseFilters">
+    <button class="btn btn-link px-0" type="button" data-toggle="collapse" data-target="#collapseFilters" aria-expanded="false" aria-controls="collapseFilters">
       <i class="fas fa-angle-down"></i> <span class="ml-2">Дополнительно</span>
     </button>
 
@@ -51,7 +51,25 @@
         </select>
       </div>
 
-      <input id="ex16a" type="text"/><br/>
+      <p class="mb-1">Цена за штуку</p>
+      <input type="text" class="range-price" name="range-price" value=""
+             data-type="double"
+             data-min="0"
+             data-max="1200"
+             data-from="0"
+             data-to="1150"
+             data-skin="sharp"
+      />
+
+      <p class="mb-1">Количество в лоте</p>
+      <input type="text" class="range-count" name="range-count" value=""
+             data-type="double"
+             data-min="0"
+             data-max="100"
+             data-from="0"
+             data-to="50"
+             data-skin="sharp"
+      />
     </div>
 
     <button type="submit" class="btn btn-primary w-100 mb-3">Применить</button>

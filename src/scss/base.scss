@@ -28,6 +28,31 @@ img {
   max-width: 100%;
 }
 
+.container.color-yellow .irs-line {
+  background-color: yellow !important;
+}
+.container.color-red .irs-line {
+  background-color: red !important;
+}
+
+
+// range
+.irs--sharp .irs-from, .irs--sharp .irs-to, .irs--sharp .irs-single,
+.irs--sharp .irs-handle,
+.irs--sharp .irs-bar,
+.irs--sharp .irs-min, .irs--sharp .irs-max {
+  background-color: $primary;
+}
+
+.irs--sharp .irs-handle>i:first-child,
+.irs--sharp .irs-from:before, .irs--sharp .irs-to:before, .irs--sharp .irs-single:before {
+  border-top-color: $primary;
+}
+
+.irs-min, .irs-max {
+  display: none;
+}
+
 @include media-breakpoint-down(xs) {
   .filters, .contacts__address {
     border-right: none !important;

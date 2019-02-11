@@ -53,6 +53,11 @@ export default new Router({
       component: () => import(/* webpackChunkName: "SingIn" */ './views/SingIn.vue'),
     },
     {
+      path: '/password-recovery',
+      name: 'password-recovery',
+      component: () => import(/* webpackChunkName: "PasswordRecovery" */ './views/PasswordRecovery.vue'),
+    },
+    {
       path: '/profile',
       name: 'profile',
       component: () => import(/* webpackChunkName: "ProfileView" */ './views/ProfileView.vue'),
