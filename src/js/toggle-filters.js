@@ -8,6 +8,8 @@ export default function initToggleFilters() {
     setTimeout(function () {
       filterMobile.addClass('filter-mobile_add-drop')
     }, 0)
+
+    $("html, body").addClass('overflow-hidden')
   }
 
   if (toggleFilter.length && toggleFilter.is(":visible")) {
@@ -16,6 +18,7 @@ export default function initToggleFilters() {
 
   function onCloseFiltersClick() {
     filterMobile.removeClass('filter-mobile_add-drop')
+    $("html, body").removeClass('overflow-hidden')
   }
 
   if (closeFilters.length) {

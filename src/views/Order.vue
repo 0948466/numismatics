@@ -42,7 +42,7 @@
             </div>
 
           </div>
-          <div class="col-md-6 p-0">
+          <div class="col-md-6 p-0 d-flex flex-column justify-content-center">
             <h5>Описание</h5>
             <p class="small">Описание Описание Описание Описание</p>
             <p><span class="h5">Номинал</span> - <span class="small">1 доллар</span></p>
