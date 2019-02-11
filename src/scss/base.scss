@@ -57,6 +57,23 @@ img {
   margin-right: 20px;
 }
 
+.filter-mobile {
+  display: none;
+  position: fixed;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 5;
+  transform: translateX(-100%);
+  transition: transform 1s;
+  overflow-x: auto;
+  &_add-drop {
+    transform: translateX(0);
+  }
+}
+
 @include media-breakpoint-down(xs) {
   .filters,
   .contacts__address {

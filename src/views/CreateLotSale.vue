@@ -3,7 +3,7 @@
       <Breadcrumb :items="[{link: '/', text: 'Каталог'}, {link: '/coin-card', text: 'Распущенные волосы'}, { text: 'Создание лота на продажу'}]"/>
 
     <div class="p-2 p-md-3">
-      <h1>Создание лота на продажу</h1>
+      <h1 class="mb-4">Создание лота на продажу</h1>
 
         <form action="#" class="mb-5">
           <div class="container-fluid">

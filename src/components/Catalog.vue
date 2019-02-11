@@ -2,9 +2,9 @@
   <section class="catalog  p-3 pt-lg-5">
     <div class="container-fluid">
       <div class="row justify-content-between align-items-center mb-4">
-        <h2 class="mb-3">Каталог</h2>
+        <h2 class="mb-0 mb-md-3">Каталог</h2>
         <p class="d-none d-sm-block">Найдено 613 монет</p>
-          <a class="d-block d-sm-none btn-link"  data-toggle="collapse" href="#collapseFilterContent" role="button" aria-expanded="false" aria-controls="collapseExample">
+          <a class="d-block d-sm-none btn-link toggle-filter">
             <i class="fas fa-filter text-primary" style="font-size: 20px"></i>
             Фильтр
           </a>
@@ -27,7 +27,18 @@
     </div>
 
 
-    <FiltersContent class="collapse"  id="collapseFilterContent"/>
+    <div class="filter-mobile px-3 pt-1 pb-4">
+      <div class="container mb-4">
+        <div class="row justify-content-between align-items-center">
+          <h2 class="mb-0">Фильтры</h2>
+          <button type="button" class="close-filters h2 mb-5" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </div>
+
+      <FiltersContent />
+    </div>
     <table class="table table-striped table-responsive-lg">
       <thead>
       <tr>

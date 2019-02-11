@@ -1,5 +1,5 @@
 <template>
-  <form class="filters-content form" action="#">
+  <form class="filters-content form-filters" action="#">
     <div class="mb-3">
       <p class="mb-1">Государство</p>
       <select class="selectpicker w-100" data-live-search="true">

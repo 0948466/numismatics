@@ -3,6 +3,7 @@ import initSelector from './bootstrap-selector';
 import initRange from './range';
 import initCalc from './calc';
 import initFilters from './filters';
+import initToggleFilters from './toggle-filters';
 
 
 $(document).ready(() => {
@@ -11,4 +12,5 @@ $(document).ready(() => {
   initRange()
   initCalc()
   initFilters()
+  initToggleFilters()
 })
