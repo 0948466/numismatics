@@ -12,16 +12,16 @@
     </div>
 
     <div class="catalog__filters border p-1 p-md-2 pl-md-3 pr-md-3 mb-3">
-      <button class="btn btn-outline-dark mr-3 mb-2">
+      <button class="btn btn-outline-dark mr-3 mb-2 filter-check" data-href="state">
         Государство - Россия <i class="fas fa-times ml-2"></i>
       </button>
-      <button class="btn btn-outline-dark mr-3 mb-2">
+      <button class="btn btn-outline-dark mr-3 mb-2 filter-check" data-href="age">
         Год выпуска - 1887 <i class="fas fa-times ml-2"></i>
       </button>
-      <button class="btn btn-outline-dark mr-3 mb-2">
+      <button class="btn btn-outline-dark mr-3 mb-2 filter-check" data-href="material">
         Материал - Серебро <i class="fas fa-times ml-2"></i>
       </button>
-      <button class="btn btn-outline-dark mr-3">
+      <button class="btn btn-outline-dark mr-3 filter-check" data-href="type">
         Тип - Юбилейная <i class="fas fa-times ml-2"></i>
       </button>
     </div>
