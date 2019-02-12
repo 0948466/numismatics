@@ -20,9 +20,9 @@
       </tr>
       <tr class="clickable-row-2" :data-href="link">
         <td>Монетный двор</td>
-        <td>26.600 Р</td>
+        <td>26.600 ₽</td>
         <td>10</td>
-        <td>266.000 Р</td>
+        <td>266.000 ₽</td>
       </tr>
       <tr class="clickable-row-2" :data-href="link">
         <td class="p-0" colspan="4">

@@ -57,7 +57,7 @@
         </td>
         <td class="text-center align-middle">РФ</td>
         <td class="text-center align-middle">2019</td>
-        <td class="text-center align-middle">25 рублей</td>
+        <td class="text-center align-middle">25 ₽</td>
         <td class="text-center align-middle">Блокада</td>
         <td class="text-center align-middle">30</td>
       </tr>
@@ -67,7 +67,7 @@
         </td>
         <td class="text-center align-middle">РФ</td>
         <td class="text-center align-middle">2019</td>
-        <td class="text-center align-middle">25 рублей</td>
+        <td class="text-center align-middle">25 ₽</td>
         <td class="text-center align-middle">Блокада</td>
         <td class="text-center align-middle">30</td>
       </tr>
@@ -77,7 +77,7 @@
         </td>
         <td class="text-center align-middle">РФ</td>
         <td class="text-center align-middle">2019</td>
-        <td class="text-center align-middle">25 рублей</td>
+        <td class="text-center align-middle">25 ₽</td>
         <td class="text-center align-middle">Блокада</td>
         <td class="text-center align-middle">30</td>
       </tr>
@@ -87,7 +87,7 @@
         </td>
         <td class="text-center align-middle">РФ</td>
         <td class="text-center align-middle">2019</td>
-        <td class="text-center align-middle">25 рублей</td>
+        <td class="text-center align-middle">25 ₽</td>
         <td class="text-center align-middle">Блокада</td>
         <td class="text-center align-middle">30</td>
       </tr>
@@ -97,7 +97,7 @@
         </td>
         <td class="text-center align-middle">РФ</td>
         <td class="text-center align-middle">2019</td>
-        <td class="text-center align-middle">25 рублей</td>
+        <td class="text-center align-middle">25 ₽</td>
         <td class="text-center align-middle">Блокада</td>
         <td class="text-center align-middle">30</td>
       </tr>
@@ -107,7 +107,7 @@
         </td>
         <td class="text-center align-middle">РФ</td>
         <td class="text-center align-middle">2019</td>
-        <td class="text-center align-middle">25 рублей</td>
+        <td class="text-center align-middle">25 ₽</td>
         <td class="text-center align-middle">Блокада</td>
         <td class="text-center align-middle">30</td>
       </tr>
@@ -117,7 +117,7 @@
         </td>
         <td class="text-center align-middle">РФ</td>
         <td class="text-center align-middle">2019</td>
-        <td class="text-center align-middle">25 рублей</td>
+        <td class="text-center align-middle">25 ₽</td>
         <td class="text-center align-middle">Блокада</td>
         <td class="text-center align-middle">30</td>
       </tr>
@@ -127,7 +127,7 @@
         </td>
         <td class="text-center align-middle">РФ</td>
         <td class="text-center align-middle">2019</td>
-        <td class="text-center align-middle">25 рублей</td>
+        <td class="text-center align-middle">25 ₽</td>
         <td class="text-center align-middle">Блокада</td>
         <td class="text-center align-middle">30</td>
       </tr>
@@ -137,7 +137,7 @@
         </td>
         <td class="text-center align-middle">РФ</td>
         <td class="text-center align-middle">2019</td>
-        <td class="text-center align-middle">25 рублей</td>
+        <td class="text-center align-middle">25 ₽</td>
         <td class="text-center align-middle">Блокада</td>
         <td class="text-center align-middle">30</td>
       </tr>

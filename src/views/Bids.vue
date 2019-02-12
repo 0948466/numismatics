@@ -32,10 +32,10 @@
             20.01.2019
           </td>
           <td>Петр 1<br>
-            5 рублей</td>
+            5 ₽</td>
           <td>250 шт.</td>
-          <td>1000 Р</td>
-          <td>25 000 Р</td>
+          <td>1000 ₽</td>
+          <td>25 000 ₽</td>
           <td>
             <p class="text-info">
               <i class="fas fa-exclamation-circle"></i>
@@ -48,10 +48,10 @@
             20.01.2019
           </td>
           <td>Петр 1<br>
-            5 рублей</td>
+            5 ₽</td>
           <td>250 шт.</td>
-          <td>1000 Р</td>
-          <td>25 000 Р</td>
+          <td>1000 ₽</td>
+          <td>25 000 ₽</td>
           <td>
             <p class="text-success">
               <i class="fas fa-check-circle"></i>
@@ -64,10 +64,10 @@
             20.01.2019
           </td>
           <td>Петр 1<br>
-            5 рублей</td>
+            5 ₽</td>
           <td>250 шт.</td>
-          <td>1000 Р</td>
-          <td>25 000 Р</td>
+          <td>1000 ₽</td>
+          <td>25 000 ₽</td>
           <td>
             <p class="text-danger">
               <i class="fas fa-times-circle"></i>
@@ -80,10 +80,10 @@
             20.01.2019
           </td>
           <td>Петр 1<br>
-            5 рублей</td>
+            5 ₽</td>
           <td>250 шт.</td>
-          <td>1000 Р</td>
-          <td>25 000 Р</td>
+          <td>1000 ₽</td>
+          <td>25 000 ₽</td>
           <td>
             <p class="text-info">
               <i class="fas fa-exclamation-circle"></i>
@@ -96,10 +96,10 @@
             20.01.2019
           </td>
           <td>Петр 1<br>
-            5 рублей</td>
+            5 ₽</td>
           <td>250 шт.</td>
-          <td>1000 Р</td>
-          <td>25 000 Р</td>
+          <td>1000 ₽</td>
+          <td>25 000 ₽</td>
           <td>
             <p class="text-success">
               <i class="fas fa-check-circle"></i>

@@ -43,7 +43,7 @@
                 </div>
 
 
-                <p>Итого - <span class="result-price"></span> рублей <sup class="text-muted">* с учетом комиссии биржи</sup></p>
+                <p>Итого - <span class="result-price"></span> ₽ <sup class="text-muted">* с учетом комиссии биржи</sup></p>
 
               </div>
               <div class="container-fluid">
