@@ -56,7 +56,7 @@
                 </div>
               </div>
 
-              <button type="submit" class="btn btn-success btn-outline-warning disabled d-flex justify-content-between align-items-center">
+              <button type="submit" class="btn btn-success btn-outline-warning disabled w-100 d-flex justify-content-between align-items-center">
                   <i class="far fa-arrow-alt-circle-up"></i>
                 Хочу купить
                   <i class="far fa-arrow-alt-circle-up"></i>
