@@ -1,6 +1,6 @@
 <template>
   <section class="coin-lot-buy">
-    <Breadcrumb :items="[{link: '/', text: 'Каталог'}, {link: '/coin-card', text: 'Распущенные волосы'}, { text: 'Создание лота на покупку'}]"/>
+    <Breadcrumb :items="[{link: 'home', text: 'Каталог'}, {link: 'coin-card', text: 'Распущенные волосы'}, { text: 'Создание лота на покупку'}]"/>
 
     <div class="p-2 p-md-3">
       <h1 class="mb-4">Создание лота на покупку</h1>
@@ -56,7 +56,7 @@
                 </div>
               </div>
 
-              <button type="submit" class="btn btn-success btn-outline-warning disabled w-100 d-flex justify-content-between align-items-center">
+              <button type="submit" class="btn btn-success btn-outline-warning disabled d-flex justify-content-between align-items-center">
                   <i class="far fa-arrow-alt-circle-up"></i>
                 Хочу купить
                   <i class="far fa-arrow-alt-circle-up"></i>

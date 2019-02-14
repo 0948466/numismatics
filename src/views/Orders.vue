@@ -1,6 +1,6 @@
 <template>
   <section class="orders mb-2 mb-lg-5">
-    <Breadcrumb :items="[{link: '/profile', text: 'Личный кабинет'}, { text: 'Все мои заказы'}]"/>
+    <Breadcrumb :items="[{link: 'profile', text: 'Личный кабинет'}, { text: 'Все мои заказы'}]"/>
 
     <div class="orders__inner p-2 p-md-3">
       <div class="container-fluid">

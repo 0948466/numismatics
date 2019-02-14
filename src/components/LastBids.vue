@@ -9,7 +9,7 @@
         <div class="last-bids__empty border text-center p-3">
           <p>Вы не провели ни одной сделки<br>
              Начните торговлю прямо сейчас.</p>
-          <a href="/" class="btn btn-outline-dark col-5">В каталог</a>
+          <router-link :to="{ name: 'home' }" class="btn btn-outline-dark col-5">В каталог</router-link>
         </div>
 
 
@@ -131,7 +131,7 @@
       </div>
 
   </section>
-  
+
 </template>
 
 <script>

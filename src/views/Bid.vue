@@ -1,6 +1,6 @@
 <template>
     <section class="bid">
-      <Breadcrumb :items="[{link: '/profile', text: 'Личный кабинет'}, {link: '/bids', text: 'Мои заявки'}, { text: 'Покупка монеты'}]"/>
+      <Breadcrumb :items="[{link: 'profile', text: 'Личный кабинет'}, {link: 'bids', text: 'Мои заявки'}, { text: 'Покупка монеты'}]"/>
 
       <div class="bid__inner p-3">
         <h2 class="mb-3">Покупка монеты <i class="fas fa-check-circle"></i></h2>

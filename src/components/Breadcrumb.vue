@@ -3,7 +3,7 @@
     <ol class="breadcrumb bg-transparent px-2 px-md-3">
       <template v-for="item in items">
         <li v-if="item.link" class="breadcrumb-item">
-          <a :href="item.link">{{ item.text }}</a>
+          <router-link :to="{ name: item.link }">{{ item.text }}</router-link>
         </li>
 
         <li v-else class="breadcrumb-item active" aria-current="page">

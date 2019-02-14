@@ -3,7 +3,7 @@
     <div class="container-fluid p-0">
       <div class="row justify-content-between align-items-center m-0 mb-4">
         <h2 class="mb-3">Купить монеты</h2>
-        <a href="/create-lot-buy" class="btn btn-outline-dark mb-2 mb-sm-0">Создать лот на покупку</a>
+        <router-link :to="{ name: 'create-lot-buy'}" class="btn btn-outline-dark mb-2 mb-sm-0">Создать лот на покупку</router-link>
       </div>
     </div>
 

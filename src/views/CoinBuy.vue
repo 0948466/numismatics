@@ -1,6 +1,6 @@
 <template>
   <section class="coin-buy">
-    <Breadcrumb :items="[{link: '/', text: 'Каталог'}, {link: '/coin-card', text: 'Распущенные волосы'}, { text: 'Покупка монеты'}]"/>
+    <Breadcrumb :items="[{link: 'home', text: 'Каталог'}, {link: 'coin-card', text: 'Распущенные волосы'}, { text: 'Покупка монеты'}]"/>
 
     <div class="p-3">
       <h1 class="mb-4">Покупка монеты</h1>

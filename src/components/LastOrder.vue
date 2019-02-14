@@ -3,7 +3,8 @@
     <div class="container-fluid p-0">
       <div class="row justify-content-between align-items-center m-0 mb-4">
         <h2 class="mb-3">Последние заказы</h2>
-        <a href="/" class="btn btn-outline-dark mb-2 mb-sm-0">Открыть каталог</a>
+        <router-link :to="{ name: 'home' }" class="btn btn-outline-dark mb-2 mb-sm-0">Открыть каталог</router-link>
+
       </div>
 
 
@@ -120,7 +121,8 @@
       </table>
 
       <div class="text-right">
-        <a href="/orders" class="btn-link">Открыть все заказы</a>
+        <router-link :to="{ name: 'orders' }" class="btn-link">Открыть все заказы</router-link>
+
       </div>
     </div>
 

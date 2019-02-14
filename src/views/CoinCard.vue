@@ -1,6 +1,6 @@
 <template>
     <section class="coin-card">
-      <Breadcrumb :items="[{link: '/', text: 'Каталог'}, { text: 'Распущенные волосы'}]"/>
+      <Breadcrumb :items="[{link: 'home', text: 'Каталог'}, { text: 'Распущенные волосы'}]"/>
 
       <div class="p-2 p-md-3">
         <CoinDesc/>

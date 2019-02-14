@@ -1,6 +1,6 @@
 <template>
   <section class="coin-sale">
-    <Breadcrumb :items="[{link: '/', text: 'Каталог'}, {link: '/coin-card', text: 'Распущенные волосы'}, { text: 'Продажа монеты'}]"/>
+    <Breadcrumb :items="[{link: 'home', text: 'Каталог'}, {link: 'coin-card', text: 'Распущенные волосы'}, { text: 'Продажа монеты'}]"/>
 
     <div class="p-3">
       <h1 class="mb-4">Продажа монеты</h1>
@@ -21,7 +21,7 @@
                   <input type="text" class="w-100 mt-2" name="comment">
                 </label>
               </div>
-              <button type="submit" class="btn btn-primary w-100 d-flex justify-content-between align-items-center">
+              <button type="submit" class="btn btn-primary d-flex justify-content-between align-items-center">
                 <i class="far fa-arrow-alt-circle-up"></i>
                 Продать
                 <i class="far fa-arrow-alt-circle-up"></i>

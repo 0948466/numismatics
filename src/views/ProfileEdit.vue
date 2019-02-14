@@ -1,12 +1,12 @@
 <template>
   <section class="profile-edit">
-    <Breadcrumb :items="[{link: '/profile', text: 'Личный кабинет'}, { text: 'Изменение профиля'}]"/>
+    <Breadcrumb :items="[{link: 'profile', text: 'Личный кабинет'}, { text: 'Изменение профиля'}]"/>
 
     <div class="profile-edit__inner mb-5">
       <div class="container-fluid">
         <div class="row justify-content-between align-items-center m-0">
           <h2 class="mb-3">Изменение профиля</h2>
-          <a href="/change-password" class="btn btn-link">Изменить пароль</a>
+          <router-link :to="{ name: 'change-password' }" class="btn btn-link">Изменить пароль</router-link>
         </div>
       </div>
 
@@ -38,8 +38,6 @@
                   Выбрать <input type="file" name="file-passport" hidden>
                 </label>
               </div>
-
-              <a href="/profile" class="btn btn-outline-dark w-100">Отменить изменения</a>
             </div>
             <div class="col-md-6">
               <div class="form-group">
@@ -67,9 +65,16 @@
                 </label>
               </div>
 
-              <button type="submit" class="btn btn-primary w-100">Сохранить изменения</button>
 
             </div>
+
+            <div class="col">
+              <router-link :to="{ name: 'profile' }" class="btn btn-outline-dark mr-3 mb-3">Отменить изменения</router-link>
+
+              <button type="submit" class="btn btn-primary mb-3">Сохранить изменения</button>
+            </div>
+
+
           </div>
         </div>
 

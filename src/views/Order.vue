@@ -1,6 +1,6 @@
 <template>
   <section class="order">
-    <Breadcrumb :items="[{link: '/profile', text: 'Личный кабинет'}, {link: '/orders', text: 'Мои заказы'}, { text: 'Покупка монеты'}]"/>
+    <Breadcrumb :items="[{link: 'profile', text: 'Личный кабинет'}, {link: 'orders', text: 'Мои заказы'}, { text: 'Покупка монеты'}]"/>
 
     <div class="order__inner p-3 ">
       <h2 class="mb-3">Покупка монеты <i class="fas fa-check-circle"></i></h2>
@@ -18,7 +18,7 @@
       <div class="container-fluid">
         <div class="row justify-content-between align-items-center mb-4">
           <h1 class="mb-3">"Распущенные волосы"</h1>
-          <a href="/" class="btn-link">Найти в катологе</a>
+          <router-link :to="{ name: 'home'}" class="btn-link">Найти в катологе</router-link>
         </div>
       </div>
       <div class="container-fluid">

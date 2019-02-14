@@ -1,6 +1,6 @@
 <template>
   <section class="change-password">
-    <Breadcrumb :items="[{link: '/profile', text: 'Личный кабинет'}, {link: '/profile-edit', text: 'Изменение профиля'}, { text: 'Изменить пароль'}]"/>
+    <Breadcrumb :items="[{link: 'profile', text: 'Личный кабинет'}, {link: 'profile-edit', text: 'Изменение профиля'}, { text: 'Изменить пароль'}]"/>
 
       <div class="change-password__inner">
         <div class="container-fluid">
@@ -32,11 +32,9 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-md-6 mb-3">
-                <a href="/profile" class="btn btn-outline-dark w-100">Вернуться в личный кабинет</a>
-              </div>
-              <div class="col-md-6 mb-3">
-                <button type="submit" class="btn btn-primary w-100">Сохранить изменения</button>
+              <div class="col">
+                <router-link :to="{ name: 'profile' }" class="btn btn-outline-dark mr-3 mb-3">Вернуться в личный кабинет</router-link>
+                <button type="submit" class="btn btn-primary mb-3">Сохранить изменения</button>
               </div>
             </div>
           </div>

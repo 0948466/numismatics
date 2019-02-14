@@ -4,8 +4,33 @@ import Home from './views/Home.vue';
 
 Vue.use(Router);
 
+// scrollBehavior:
+// - only available in html5 history mode
+// - defaults to no scroll behavior
+// - return false to prevent scroll
+const scrollBehavior = (to, from, savedPosition) => {
+  if (!savedPosition && (to.query.modal || from.query.modal)) {
+    return false
+  }
+  if (to.hash) {
+    return {
+      selector: to.hash,
+      // , offset: { x: 0, y: 10 }
+    }
+  }
+  if (savedPosition) {
+    return savedPosition
+  }
+  return {
+    x: 0,
+    y: 0,
+  }
+}
+
 export default new Router({
   mode: 'history',
+  scrollBehavior,
+  base: process.env.BASE_URL,
   routes: [
     {
       path: '/',

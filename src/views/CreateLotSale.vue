@@ -1,6 +1,6 @@
   <template>
     <section class="coin-lot-sale">
-      <Breadcrumb :items="[{link: '/', text: 'Каталог'}, {link: '/coin-card', text: 'Распущенные волосы'}, { text: 'Создание лота на продажу'}]"/>
+      <Breadcrumb :items="[{link: 'home', text: 'Каталог'}, {link: 'coin-card', text: 'Распущенные волосы'}, { text: 'Создание лота на продажу'}]"/>
 
     <div class="p-2 p-md-3">
       <h1 class="mb-4">Создание лота на продажу</h1>
@@ -46,7 +46,7 @@
                   <p>Итого - <span class="result-price"></span> рублей <sup class="text-muted">* с учетом комиссии биржи</sup></p>
 
                 </div>
-                <button type="submit" class="btn btn-primary w-100 d-flex justify-content-between align-items-center">
+                <button type="submit" class="btn btn-primary d-flex justify-content-between align-items-center">
                     <i class="far fa-arrow-alt-circle-up"></i>
                   Хочу продать
                     <i class="far fa-arrow-alt-circle-up"></i>

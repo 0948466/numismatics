@@ -6,7 +6,8 @@
         <div class="container-fluid border-bottom p-3">
           <div class="row m-0 align-items-center">
             <h5 class="mr-3 mb-0">Вход</h5>
-            <a href="/sing-up" class="ml-auto small">Нет аккаунта? Зарегистрируйтесь</a>
+            <router-link :to="{ name: 'sing-up' }" class="ml-auto small">Нет аккаунта? Зарегистрируйтесь</router-link>
+
           </div>
         </div>
         <div class="p-3 pt-5">
@@ -15,9 +16,10 @@
           <label for="inputPassword">Пароль</label>
           <input type="password" id="inputPassword" class="form-control" name="password" required="">
           <div class="text-right">
-            <a href="/password-recovery" class="btn-link small">Забыли пароль?</a>
+            <router-link :to="{ name: 'password-recovery' }" class="btn-link small">Забыли пароль?</router-link>
+
           </div>
-          <button class="btn btn-primary w-100 mt-4" type="submit">Войти</button>
+          <button class="btn btn-primary mt-4" type="submit">Войти</button>
         </div>
       </div>
 

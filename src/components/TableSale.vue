@@ -3,7 +3,8 @@
     <div class="container-fluid p-0">
       <div class="row justify-content-between align-items-center m-0 mb-4">
         <h2 class="mb-3">Продать монеты</h2>
-        <a href="/create-lot-sale" class="btn btn-outline-dark mb-2 mb-sm-0">Создать лот на продажу</a>
+        <router-link :to="{ name: 'create-lot-sale'}" class="btn btn-outline-dark mb-2 mb-sm-0">Создать лот на продажу</router-link>
+
       </div>
 
       <TableSaleContent link="/coin-sale"/>

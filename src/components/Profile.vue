@@ -3,7 +3,8 @@
     <div class="container-fluid mb-4">
       <div class="row align-items-center">
         <h1 class="mr-4">Мой профиль</h1>
-        <a href="/profile-edit" class="btn-link mr-2">Изменить</a>
+        <router-link :to="{ name: 'profile-edit' }" class="btn-link mr-2">Изменить</router-link>
+
         <p class="mb-0 ml-auto">Статус - <span class="text-info">На проверке</span></p>
       </div>
     </div>
